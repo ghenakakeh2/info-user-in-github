@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.reposeConyiner{
+   background-color: #f6f6f6;
+    width: 50%;
+    margin: 100px auto;
+ 
+}
+.reposeConyiner .getRepose{
+    padding: 20px;
+    
+    display: flex;
+  
+    background-color: #eee;
+}
+.reposeConyiner .getRepose input{
+width: 100%;
+padding: 15px 20px;
+border: none;
+font-size: 18px;
+height: 55px;
+}
+.reposeConyiner .getRepose input:focus{
+    outline: 2px solid #F44336;
+}
+.reposeConyiner .getRepose .get-butten{
+    width: 140px;
+ 
+    margin-left: 10px;
+    text-align: center;
+    height: 54px;
+    background-color: #F44336;
+    color: white;
+    line-height: 54px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.showData{
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+.repo-box{
+  
+    margin: 5px;
+    background-color: #fff;
+   
+    padding: 15px;
+   
+  
+}
+
+.repo-box a,
+.repo-box span{
+
+float: right;
+margin-left: 4px;
+border-radius: 4px;
+color: #fff;
+font-size: 12px;
+text-align: center;
+padding: 4px;
+width: 90px;
+
+
+}
+.repo-box a{
+    text-decoration: none;
+   background-color: #E91E63;
+}
+.repo-box span{
+    background-color: #009688;
+ 
+
+
+}
